@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chain Question Answering</title>
+</head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<body>
+    <h1>RAG Chain Question Answering</h1>
+    <form id="ragForm">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <label for="question">Question:</label>
+        <input type="text" id="question" name="question" required>
+        <br>
+        <button type="button" onclick="submitRagChain()">Submit</button>
+    </form>
+    <div id="response"></div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
