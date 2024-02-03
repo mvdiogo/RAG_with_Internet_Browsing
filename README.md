@@ -46,12 +46,3 @@ Before running the project, you need to install the required dependencies, inclu
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Make sure to create a `requirements.txt` file containing the necessary dependencies:
-
-```
-Flask==3.0.1
-langchain==0.1.3
-langchain_community==0.0.17
-ollama==0.1.6
