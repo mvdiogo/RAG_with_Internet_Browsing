@@ -2,6 +2,8 @@
 
 This project is a web page search application that uses Langchain for web page analysis and Ollama for answer generation. It is built with Flask and integrates with the Langchain and Ollama APIs.
 
+![RAG with Internet Browsing (Langchain, Flask and Ollama)](screenshot.png)
+
 ## Installation
 
 Before running the project, you need to install the required dependencies, including Ollama. Follow the steps below:
